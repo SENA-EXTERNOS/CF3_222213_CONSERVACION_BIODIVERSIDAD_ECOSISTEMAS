@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Características y muestreo del recurso hídrico',
+    descripcionCurso:
+      'El propósito de los primeros auxilios psicológicos solo es posible de entender cuando la salud mental hace parte de los conceptos básicos de quién aplica esta técnica. Por este motivo comprender la naturaleza de los trastornos y problemas mentales y los aspectos y lineamientos de los primeros auxilios psicológicos es la plataforma de entrada para desarrollar las habilidades que permitan a una persona apoyar a una crisis emocional y psicológica, para evitar daños posteriores más profundos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -32,24 +33,56 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'El agua',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Ciclo hidrológico y disponibilidad de agua',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Características de calidad',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Caracterización físico-química y microbiológica',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Muestreo de agua',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Medición de parámetros',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Recursos para el muestreo',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo:
+              'Asegurar las condiciones de salud y seguridad en el trabajo',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
@@ -57,6 +90,50 @@ export default {
         numero: '3',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipo de muestra',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Plan de muestreo',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Recolección y transporte de las muestras',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Recepción y análisis de muestras',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Elaboración de la cadena de custodia',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Disposición de los residuos generados',
+            hash: 't_3_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.7',
+            titulo: 'Informes',
+            hash: 't_3_7',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +178,130 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '2.1. Medición de parámetros',
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación. (1995). Gestión Ambiental. Calidad del agua: muestreo. Directrices para el diseño de programas de muestreo. EMCALI.',
+      tipo: 'Norma',
+      link:
+        'https://www.emcali.com.co/documents/148832/183512/NTC+ISO+5667+-1+1995.pdf/c299f60c-2aed-b4d0-35da-81ddbae286b9?t=1532940931582&download=true',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2.1. Medición de parámetros',
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación. (1995). Gestión ambiental. Calidad del agua: muestreo. Técnicas generales de muestreo. StuDocu.',
+      tipo: 'Norma',
+      link:
+        'https://www.studocu.com/co/document/universidad-central-colombia/sistemas-de-tratamiento-de-aguas/ntc-iso-5667-02-1995-tecnicas-generales-de-muestreo/17122760',
+    },
+    {
+      tema: '2.1. Medición de parámetros',
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación. (1995). Gestión ambiental. Calidad del agua: muestreo. Directrices para la conservación y manejo de las muestras. IDEAM.',
+      tipo: 'Norma',
+      link:
+        'http://documentacion.ideam.gov.co/cgi-bin/koha/opac-detail.pl?biblionumber=7960',
+    },
+    {
+      tema: '1.1 Ciclo hidrológico y disponibilidad de agua',
+      referencia: 'Ordoñez, J. (2011). Cartilla Técnica: Ciclo Hidrológico.',
+      tipo: 'Cartilla',
+      link:
+        'https://www.gwp.org/globalassets/global/gwp-sam_files/publicaciones/varios/ciclo_hidrologico.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Altímetro',
+      significado:
+        'instrumento para medir la altura de un punto con respecto a uno de referencia.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Cadena de Custodia',
+      significado:
+        'conjunto de elementos encargados de vigilar y asegurar las muestras de agua.',
+    },
+    {
+      termino: 'Geoposicionador',
+      significado:
+        'instrumento de medida que tiene la capacidad de ubicar en latitud y longitud cualquier parte del planeta.',
+    },
+    {
+      termino: '<em>in situ</em>',
+      significado:
+        'hace referencia al lugar en el que sucede algún evento específico. El lugar en el que se realiza la recolección de la muestra de agua.',
+    },
+    {
+      termino: 'Escorrentía',
+      significado:
+        'agua de lluvia que discurre por la superficie de un terreno.',
+    },
+    {
+      termino: 'Microbiología',
+      significado:
+        'ciencia que le proporciona la hombre las herramientas para el estudio de los microorganismos.',
+    },
+    {
+      termino: 'Muestra',
+      significado:
+        'porción, cantidad representativa extraída de un objeto de análisis (cuerpos de agua).',
+    },
+    {
+      termino: 'Parámetro',
+      significado:
+        'dato o información relevante que se examina de un tema en particular.',
+    },
+    {
+      termino: 'pH',
+      significado:
+        'valor numérico que indica el grado de acidez o basicidad de una sustancia.',
+    },
+    {
+      termino: 'Preservante',
+      significado:
+        'sustancia química que detiene la alteración química y/o biológica de la muestra de agua.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Corantioquia. (2014). Manual Piragüero: Calidad fisicoquímica y microbiológica del agua.',
+      link:
+        'https://piragua.corantioquia.gov.co/wp-content/uploads/2016/11/5.Manual_Calidad_Fisicoquimica.pdf',
+    },
+    {
+      referencia:
+        'Instituto de Hidrología, Metereología y Estudios Ambientales. (2007). Toma de muestras de aguas residuales',
+      link:
+        'http://www.ideam.gov.co/documents/14691/38158/Toma_Muestras_AguasResiduales.pdf/f5baddf0-7d86-4598-bebd-0e123479d428#:~:text=La%20siguiente%20es%20una%20lista,Dorn%2C%20Kemmerer%20o%20balde',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Tecnología Agropecuaria. (2011). Protocolo de Muestreo, Transporte y Conservación de Muestras de Agua con Fines Múltiples (consumo humano, abrevado animal y riego).',
+      link:
+        'https://inta.gob.ar/sites/default/files/script-tmp-protocolo_de_muestreo_de_aguas_inta.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente y Desarrollo Sostenible. (s.f.). Calidad.',
+      link:
+        'https://www.minambiente.gov.co/gestion-integral-del-recurso-hidrico/calidad/',
+    },
+    {
+      referencia:
+        'Programa de Vigilancia por Laboratorio de la Calidad de Agua para Consumo Humano. (2011). Manual de Instrucciones para la Toma, Preservación y Transporte de Muestras de Agua de Consumo Humano para Análisis de Laboratorio.',
+      link:
+        'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2011%20Manual%20toma%20de%20muestras%20agua.pdf',
+    },
+    {
+      referencia:
+        'Sistema de Agua Potable y Alcantarillado Municipal. (2021). Ciclo hidrológico y disponibilidad de agua. SAPAM.',
+      link:
+        'http://sapam.gob.mx/site/ciclo-hidrologico-y-disponibilidad-de-agua/',
+    },
+    {
+      referencia:
+        'Torres, P., Cruz, C. y Patiño, J. (2009). Índices de calidad de agua en fuentes superficiales utilizadas en la producción de agua para consumo humano. Una revisión humana. Revista Ingenierías Universidad de Medellín, 8(5), pp. 79-94.',
+      link: 'http://www.scielo.org.co/pdf/rium/v8n15s1/v8n15s1a09.pdf',
     },
   ],
   creditos: {

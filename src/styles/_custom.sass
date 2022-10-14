@@ -1,14 +1,16 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 5.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    left: 0%
+    width: 20%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 10%
+    width: 20%
 
 
 @keyframes float1
@@ -17,3 +19,68 @@
 
   100%
     transform: translateY(0px)
+
+.img-infografica-b.color-acento-botones .img-infografica-b__item__numero
+  color: #fff
+
+.img-infografica-b__modal
+  background-color: #12263F
+
+.img-infografica__item__tooltip, .img-infografica-b__item__tooltip
+  background-color: transparent
+
+.BGR01, .tarjeta--azul
+  background-color: #D7ECEA
+
+.BGR02
+  background-color: #E8E8E8
+
+.BGR03
+  background-color: #594E38
+
+.BGR04
+  background-color: #E26C1E
+
+.BG05
+  background-color: #FAE3D4
+
+.etiqueta
+  background-color: #CFE7E5
+  color: $black
+
+.BGR01, .BGR02, .BGR03, .BGIMG07
+  border-radius: 15px
+
+.BGR04
+  border-radius: 0 15px 15px 0
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG03
+  background-image: url("../assets/curso/fondos/img03.png")
+
+.BGIMG04
+  background-image: url("../assets/curso/fondos/img04.png")
+
+.BGIMG05
+  background-image: url("../assets/curso/fondos/img05.png")
+
+.BGIMG06
+  background-image: url("../assets/curso/fondos/img06.png")
+
+.BGIMG07
+  background-image: url("../assets/curso/fondos/img07.png")
+
+.BGIMG01, .BGIMG02, .BGIMG03, .BGIMG04, .BGIMG05, .BGIMG06, .BGIMG07
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG05, .BGIMG06
+  margin-inline: -3.2rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.4rem !important

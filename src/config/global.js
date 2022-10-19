@@ -88,7 +88,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Protocolo y procedimientos',
         desarrolloContenidos: true,
         subMenu: [
           {

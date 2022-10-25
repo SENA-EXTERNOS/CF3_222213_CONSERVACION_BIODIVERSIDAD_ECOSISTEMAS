@@ -95,7 +95,11 @@
               p.mb-0 La tercera es la NTC-ISO 5667-3 “Gestión ambiental. Calidad del agua. Muestreo. Directrices para la conservación y manejo de muestras”, en donde se establecen los principios generales para la toma de muestras y evaluación de condiciones de calidad del agua e identificación de las fuentes de contaminación.
             .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema2/img09.png")
-              
+
+    separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.2 Recursos para el muestreo 
+
     .row.justify-content-center.mb-4
       .col-lg-10.BGR03.p-4(data-aos="flip-up")
         .row.justify-content-around.align-items-center

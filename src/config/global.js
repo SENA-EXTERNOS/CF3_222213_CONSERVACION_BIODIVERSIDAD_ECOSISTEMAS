@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Características y muestreo del recurso hídrico',
     descripcionCurso:
-      'El propósito de los primeros auxilios psicológicos solo es posible de entender cuando la salud mental hace parte de los conceptos básicos de quién aplica esta técnica. Por este motivo comprender la naturaleza de los trastornos y problemas mentales y los aspectos y lineamientos de los primeros auxilios psicológicos es la plataforma de entrada para desarrollar las habilidades que permitan a una persona apoyar a una crisis emocional y psicológica, para evitar daños posteriores más profundos.',
+      'El recurso hídrico cuenta con una serie de propiedades que lo convierten en un elemento fundamental para la subsistencia de la vida en el planeta, es por ello de suma importancia promover la preservación del mismo a partir del reconocimiento de sus características y los factores o agentes que lo impactan, mediante procesos de parametrización, con el fin de establecer criterios de calidad, aprovechamiento y sostenibilidad que benefician el ecosistema y los procesos que proporcionarán la sostenibilidad del ecosistema.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

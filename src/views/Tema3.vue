@@ -7,8 +7,7 @@
         span 3
       h1 Protocolo y procedimientos
     
-    p Los protocolos de ejecución permiten establecer los procedimientos a seguir en los procesos de análisis de agua, teniendo en cuenta el tipo de muestra, el seguimiento a la recolección, almacenamiento, transporte y análisis. De ésta manera se espera minimizar el porcentaje de error y optimizar resultados.
-    p.mb-5 te invitamos a ver el siguiente video donde se abordan los tipos de muestra y el plan de muestreo.
+    p.mb-5 Los protocolos de ejecución permiten establecer los procedimientos a seguir en los procesos de análisis de agua, teniendo en cuenta el tipo de muestra, el seguimiento a la recolección, almacenamiento, transporte y análisis. De ésta manera se espera minimizar el porcentaje de error y optimizar resultados, te invitamos a ver el siguiente video donde se abordan los tipos de muestra y el plan de muestreo.
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Tipo de muestra y Plan de muestreo
@@ -31,7 +30,7 @@
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.2 Recolección y transporte de las muestras
       
-      p Para realizar una correcta recolección sin afectar las condiciones normales (Figura 3), es necesario disponer de los materiales indicados y almacenar adecuadamente la muestra mientras es llevada al correspondiente análisis. Algunas de las recomendaciones son:
+      p Para realizar una correcta recolección sin afectar las condiciones normales es necesario disponer de los materiales indicados y almacenar adecuadamente la muestra mientras es llevada al correspondiente análisis. Algunas de las recomendaciones son:
 
       .row.justify-content-center.mb-4(data-aos="zoom-in")
         ImagenInfograficaB.color-acento-botones
@@ -39,20 +38,27 @@
             figure
               img(src='@/assets/curso/tema3/img02.png')
 
-          div(x="15%" y="40%" numero="1")
-            p.text-white.mb-0 Los envases deben estar libres de impurezas, también disponer de diferentes tipos y cantidades debidamente rotulados antes de iniciar el muestreo.
-          div(x="25%" y="64%" numero="2")
-            p.text-white.mb-0 Realizar el alistamiento de los equipos, materiales e insumos a utilizar en el momento de la recolección. Llevar consigo los manuales de los equipos para efectos de calibración.
-          div(x="54%" y="50%" numero="3")
-            p.text-white.mb-0 Es importante tener en cuenta que, para retardar los cambios químicos y biológicos de algunas muestras, es necesario contar con reactivos preservantes para el buen manejo de estos, mantener en contenedores adecuados y ser manipulados con elementos de protección personal, de acuerdo al tipo de muestra (guantes, gafas, overol o bata, botas de caucho).
-          div(x="60%" y="73%" numero="4")
-            p.text-white.mb-0 Se recomienda tomar medidas de algunos parámetros como: temperatura; pH, turbidez, conductividad, color, olor “in situ” con el fin de mantener las condiciones iniciales de la muestra.
-          div(x="72%" y="10%" numero="5")
-            p.text-white.mb-0 Luego del muestreo, se registra en los formatos las características climáticas del lugar en el que se encuentra el cuerpo de agua y las consideraciones pertinentes con respecto a la primera observación de la muestra de agua.
-          div(x="79%" y="17%" numero="6")
-            p.text-white.mb-0 Es necesario tener en cuenta los requisitos de análisis, ya sean físicos, químicos o microbiológicos, con o sin preservantes, para así mismo definir la cantidad de muestra a recolectar.
-          div(x="77%" y="46%" numero="7")
-            p.text-white.mb-0 Para iniciar la cadena de transporte, las muestras deben ser embaladas en una nevera que mantenga la temperatura sobre los 4 °C, y que esté sellada con cinta para evitar el derrame y pérdida de la muestra.
+          .row.justify-content-center.align-items-center(x="15%" y="40%" numero="1")
+            .col-lg-8
+              p.text-white.mt-5.mb-0 Los envases deben estar libres de impurezas, también disponer de diferentes tipos y cantidades debidamente rotulados antes de iniciar el muestreo.
+          .row.justify-content-center.align-items-center(x="25%" y="64%" numero="2")
+            .col-lg-8
+              p.text-white.mt-5.mb-0 Realizar el alistamiento de los equipos, materiales e insumos a utilizar en el momento de la recolección. Llevar consigo los manuales de los equipos para efectos de calibración.
+          .row.justify-content-center.align-items-center(x="54%" y="50%" numero="3")
+            .col-lg-8
+              p.text-white.mt-5.mb-0 Es importante tener en cuenta que para retardar los cambios químicos y biológicos de algunas muestras es necesario contar con reactivos preservantes, para el buen manejo de estos, se deben mantener en contenedores adecuados y deben ser manipulados con elementos de protección personal, de acuerdo al tipo de muestra (Guantes, gafas, overol o bata, botas de caucho). 
+          .row.justify-content-center.align-items-center(x="60%" y="73%" numero="4")
+            .col-lg-8
+              p.text-white.mt-5.mb-0 Es recomendable tomar medidas de algunos parámetros como temperatura, pH, turbidez, conductividad, color, olor “in situ” con el fin de mantener las condiciones iniciales de la muestra.
+          .row.justify-content-center.align-items-center(x="72%" y="10%" numero="5")
+            .col-lg-8
+              p.text-white.mt-5.mb-0 Luego del muestreo, se registra en los formatos las características climáticas del lugar en el que se encuentra el cuerpo de agua y las consideraciones pertinentes con respecto a la primera observación de la muestra de agua.
+          .row.justify-content-center.align-items-center(x="79%" y="17%" numero="6")
+            .col-lg-8
+              p.text-white.mt-5.mb-0 Es necesario tener en cuenta los requisitos de análisis, ya sean físicos, químicos o microbiológicos, con o sin preservantes, para así mismo definir la cantidad de muestra a recolectar.
+          .row.justify-content-center.align-items-center(x="77%" y="46%" numero="7")
+            .col-lg-8
+              p.text-white.mt-5.mb-0 Para iniciar la cadena de transporte, las muestras deben ser embaladas en una nevera que mantenga la temperatura sobre los 4 °C, y que esté sellada con cinta para evitar el derrame y pérdida de la muestra.
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -60,7 +66,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.p-4.order-lg-1.order-2(data-aos="fade-right")
-        p En esta etapa se corrobora la información que se encuentra descrita en el rótulo de las muestras, se evalúa si el volumen es adecuado para el análisis, si tiene agentes preservantes y si sufrió algún cambio de condiciones durante el tiempo de transporte. De esta manera, se garantiza que el análisis de las muestras se realiza bajo estándares de calidad (Figura 4). Para ello, las muestras deben registrarse en cuanto lleguen al laboratorio, con la siguiente información correspondiente al Programa de Vigilancia por Laboratorio de la Calidad de Agua para Consumo Humano (2011, p. 55):
+        p   En ésta etapa se corrobora la información que se encuentra descrita en el rótulo de las muestras, se evalúa si el volumen es adecuado para el análisis, si tiene agentes preservantes, si sufrió algún cambio de condiciones durante el tiempo de transporte. De esta manera se garantiza que el análisis de las muestras se realiza bajo estándares de calidad. Para ello las muestras deben registrarse en cuanto lleguen al laboratorio con la siguiente información:
         .BGR04.p-4
           ol.lista-ol.text-white
             li 
@@ -77,7 +83,7 @@
               p.mb-0 Número del método de muestreo.
             li 
               span.text-bold e. 
-              p.mb-0 Localización de almacenamiento de la muestra.
+              p.mb-0 Localización de almacenamiento de la muestra (Programa de Vigilancia por Laboratorio de la Calidad de Agua para Consumo Humano, 2011).
       .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img03.png")
         .titulo-sexto.color-acento-contenido
@@ -125,13 +131,11 @@
         .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema3/img06.png") 
         .col-lg-7(data-aos="fade-left")
-          p La elaboración del informe de muestreo va de la mano con la cadena de custodia, ya que comparten ciertos aspectos que deben incluirse como información resultante del proceso de recolección.
-          p Sin embargo, además de los datos básicos exigidos, hay que describir con detalle los hallazgos en las muestras de agua (Figura 6). Es necesario hacer la descripción de los análisis químicos, físicos y microbiológicos, con el fin de establecer las condiciones iniciales de la muestra y posteriormente los agentes externos presentes en la misma. Esto permitirá determinar la vía de disposición del cuerpo de agua analizado. 
-          p.mb-0 Es indispensable que en el informe se encuentre consignado el sitio del muestreo; sus características, las condiciones climáticas, la fecha, método y tiempo que se empleó para la recolección; los datos de la persona que recolectó, naturaleza del tratamiento previo, preservantes agregados (de ser el caso) y datos recogidos en el campo. (ICONTEC, 1995).  
-
+          p La elaboración del informe debe describir con detalle los hallazgos en las muestras de agua, es necesario hacer la descripción de los análisis químicos, físicos y microbiológicos con el fin de establecer las condiciones iniciales de la muestra y posteriormente los agentes externos presentes en la misma. Esto permitirá determinar la vía de disposición del cuerpo de agua analizado. 
+          p.mb-0 Es indispensable que en el informe se encuentre consignado el sitio del muestreo, sus características, las condiciones climáticas, la fecha, método y tiempo que se uso para la recolección, los datos  de la persona que recolectó, naturaleza del tratamiento previo, preservantes agregados (de ser el caso) y datos recogidos en el campo. (Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC], 1995)
       .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
         .col-lg-10.BG05.p-4
-          p.mb-0 Aquí finaliza este componente formativo.  Recuerde explorar los demás recursos que se encuentran disponibles, , para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+          p.mb-0 Aquí finaliza este componente formativo.  Recuerde explorar los demás recursos que se encuentran disponibles, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
 
 </template>
 

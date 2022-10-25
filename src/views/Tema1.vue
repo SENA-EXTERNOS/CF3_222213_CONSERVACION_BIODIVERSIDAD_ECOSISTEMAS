@@ -21,7 +21,7 @@
 
     .row.justify-content-center.align-items-center.BGIMG03.mb-5(data-aos="flip-up")
       .col-lg-7.p-4.order-lg-1.order-2
-        p.mb-0 Estos cambios en las condiciones físicas (Figura 1), inician cuando el sol calienta la superficie de las aguas existentes en el planeta, evaporándolas y sublimando el hielo. De esta manera, el recurso hídrico se mueve a la atmósfera en estado gaseoso, posteriormente se condensa en las nubes y por efecto de la gravedad se precipita en estado líquido. Al tener contacto con la superficie de la tierra puede tomar diferentes rutas, nuevamente evaporación, infiltración en el suelo o simplemente fluir sobre la superficie (escorrentía).
+        p.mb-0 Estos cambios de estado inician cuando el sol calienta la superficie de las aguas existentes en el planeta, lo que la evapora y sublima el hielo. De ésta manera el recurso hídrico se mueve a la atmósfera en estado gaseoso, posteriormente se condensa en las nubes y por efecto de la gravedad se precipita en estado líquido. Al tener contacto con la superficie de la tierra, puede tomar diferentes rutas: nuevamente evaporación, infiltración en el suelo o simplemente fluir sobre la superficie (escorrentía). 
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
         img(src="@/assets/curso/tema1/img02.png")
         .titulo-sexto.color-acento-contenido
@@ -61,7 +61,7 @@
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.3 Caracterización fisicoquímica y microbiológica
       
-      p Para determinar la calidad del agua, es necesario establecer una serie de parámetros que se encargan de reportar sus características, de acuerdo con estándares establecidos a nivel mundial para un óptimo aprovechamiento del recurso. Para este caso, se tienen los siguientes parámetros:
+      p Para determinar la calidad del agua es necesario establecer una serie de parámetros que se encargan de reportar las características del agua de acuerdo con estándares establecidos a nivel mundial para un óptimo aprovechamiento del recurso, dentro de estos parámetros se tienen los siguientes:
 
       .row.justify-content-center.mb-4(data-aos="zoom-in")
         .col-lg-9

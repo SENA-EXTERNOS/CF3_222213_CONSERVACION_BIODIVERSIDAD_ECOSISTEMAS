@@ -10,7 +10,7 @@
     p.mb-5 Los protocolos de ejecución permiten establecer los procedimientos a seguir en los procesos de análisis de agua, teniendo en cuenta el tipo de muestra, el seguimiento a la recolección, almacenamiento, transporte y análisis. De ésta manera se espera minimizar el porcentaje de error y optimizar resultados, te invitamos a ver el siguiente video donde se abordan los tipos de muestra y el plan de muestreo.
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.1 Tipo de muestra y Plan de muestreo
+      h2 3.1 Toma de muestras
     
     .BGIMG06.p-md-5.p-4
       figure.mb-5(data-aos="zoom-in")
@@ -26,9 +26,7 @@
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema3/img01.png")
 
-      separador
-      #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 3.2 Recolección y transporte de las muestras
+      .h4 Recolección y transporte de las muestras
       
       p Para realizar una correcta recolección sin afectar las condiciones normales es necesario disponer de los materiales indicados y almacenar adecuadamente la muestra mientras es llevada al correspondiente análisis. Algunas de las recomendaciones son:
 
@@ -61,12 +59,12 @@
               p.text-white.mt-5.mb-0 Para iniciar la cadena de transporte, las muestras deben ser embaladas en una nevera que mantenga la temperatura sobre los 4 °C, y que esté sellada con cinta para evitar el derrame y pérdida de la muestra.
 
     separador
-    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.3 Recepción y análisis de muestra
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 3.2 Análisis y cadena de custodia
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.p-4.order-lg-1.order-2(data-aos="fade-right")
-        p   En ésta etapa se corrobora la información que se encuentra descrita en el rótulo de las muestras, se evalúa si el volumen es adecuado para el análisis, si tiene agentes preservantes, si sufrió algún cambio de condiciones durante el tiempo de transporte. De esta manera se garantiza que el análisis de las muestras se realiza bajo estándares de calidad. Para ello las muestras deben registrarse en cuanto lleguen al laboratorio con la siguiente información:
+        p En ésta etapa se corrobora la información que se encuentra descrita en el rótulo de las muestras, se evalúa si el volumen es adecuado para el análisis, si tiene agentes preservantes, si sufrió algún cambio de condiciones durante el tiempo de transporte. De esta manera se garantiza que el análisis de las muestras se realiza bajo estándares de calidad. Para ello las muestras deben registrarse en cuanto lleguen al laboratorio con la siguiente información:
         .BGR04.p-4
           ol.lista-ol.text-white
             li 
@@ -90,9 +88,7 @@
           h5 Figura 4
           span Análisis de muestra
     
-    separador
-    #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 3.4 Elaboración de la cadena de custodia 
+    .h4 Elaboración de la cadena de custodia 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -103,8 +99,8 @@
 
     .BGIMG05.p-md-5.p-4
       separador
-      #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 3.5 Disposición de los residuos generados
+      #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 3.3 Disposición los residuos e informes
       
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-7.p-4.order-lg-1.order-2(data-aos="fade-right")
@@ -123,9 +119,7 @@
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema3/img05.png")
 
-      separador
-      #t_3_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 3.6 Informes
+      .h4 Informes
 
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")

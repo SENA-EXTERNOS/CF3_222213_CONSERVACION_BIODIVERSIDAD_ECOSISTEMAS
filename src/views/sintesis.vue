@@ -3,8 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 Apreciado aprendiz, el recurso hídrico es fundamental en los procesos ecosistémicos, por ello es necesario reconocer todas sus características y funcionamiento para procurar su preservación. A continuación encontrará un diagrama que le facilitará la comprensión de las características fisicoquímicas del recurso hídrico, los procesos de muestreo que se llevan a cabo para establecer parámetros de calidad y la disponibilidad para la población:
-
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
+    
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

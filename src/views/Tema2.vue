@@ -7,15 +7,13 @@
         span 2
       h1 Muestreo de agua
     
-    p.mb-5 El proceso de muestreo se efectúa para establecer criterios de calidad del agua, se realiza mediante la toma de cantidades específicas en lugares determinados para luego generar un análisis de parámetros físico-químicos y microbiológicos. De ésta manera se establece la viabilidad del recurso de acuerdo al uso que se le vaya a destinar. El muestreo puede darse de tres tipos:
+    p.mb-5 El proceso de muestreo se efectúa para establecer criterios de calidad del agua, se realiza mediante la toma de cantidades específicas en lugares determinados para luego generar un análisis de parámetros físico-químicos y microbiológicos. De ésta manera se establece la viabilidad del recurso de acuerdo al uso que se le vaya a destinar. El muestreo puede darse de tres tipos: 
 
     .BGIMG06.p-md-5.p-4
       .row.justify-content-center.mb-4
         .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema2/img01.png")
         .col-lg-7(data-aos="fade-left")
-          .h4 Muestreo de agua
-          p El muestreo puede darse de tres tipos: 
           AcordionA.mb-5(tipo="a" clase-tarjeta="BGR02")
             .row(titulo="Muestreo manual")
               p Es realizado en lugares de fácil acceso, donde el encargado de la muestra puede realizar un primer análisis de características netamente físicas como el olor, el color y la turbidez.
@@ -96,28 +94,111 @@
             .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema2/img09.png")
 
+    
+    .BGIMG06.p-md-5.p-4
+      .row.mt-5
+        h3 Muestreo
+
+        p Para llevar a cabo el muestreo es necesario contar con diferentes equipos, materiales e insumos que facilitarán el proceso de recolección, almacenamiento y análisis de las características fisicoquímicas y microbiológicas de la muestra de agua. Dependiendo del tipo de muestra ya sea puntual o integrada se seleccionarán los recursos necesarios. A continuación un listado general de los utilizados en diferentes muestreos:
+      
+      .row.justify-content-center.align-items-center
+        .col-lg-7.cajon.color-acento-contenido.p-4
+          p #[b Equipos]
+
+          ul.lista-ul--color
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Cronómetro.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Equipos portátiles para mediciones de temperatura, pH y conductividad eléctrica.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Geoposicionador.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Altímetro.
+
+        .col-lg-3
+            img(src="@/assets/curso/tema2/img1.svg")
+
+      .row.justify-content-center.align-items-center.mt-5
+        .col-lg-3
+            img(src="@/assets/curso/tema2/img3.svg")
+
+        .col-lg-7.cajon.color-acento-contenido.p-4
+          p #[b Materiales]
+
+          ul.lista-ul--color
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Baldes plásticos con y sin llave.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Recipientes de vidrio y/o plástico para la toma de muestra.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Neveras de icopor o poliuretano para mantener la temperatura de las muestras sobre los 4°C.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Equipo de protección y seguridad personal (Botas de caucho, overol y/o bata, impermeable, guantes, gafas de seguridad).
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Frasco lavador.
+
+      .row.justify-content-center.align-items-center.mt-5
+
+        .col-lg-7.cajon.color-acento-contenido.p-4
+          p #[b Insumos]
+
+          ul.lista-ul--color
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Formatos para registro de datos.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Documentos de identificación del personal encargado de la tomas de muestras. 
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Reactivos necesarios para la preservación de las muestras.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Bolsa plástica para almacenamiento de formatos.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Cuerda de nylon o cabuya para manipular los baldes en la caja de inspección.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Bolígrafo y marcador de tinta indeleble.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Rótulos.
+
+            li
+              <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
+              p.mb-0 Cinta de enmascarar.
+
+        .col-lg-3
+            img(src="@/assets/curso/tema2/img4.svg")
+
+  
+
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.2 Recursos para el muestreo 
-
-    .row.justify-content-center.mb-4
-      .col-lg-10.BGR03.p-4(data-aos="flip-up")
-        .row.justify-content-around.align-items-center
-          .col-lg-1.col-sm-2.col-3
-            img(src="@/assets/curso/tema2/img10.png")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                h4.text-white.mb-1 Muestreo de agua
-                p.text-white.text-small Para llevar a cabo el muestreo es necesario contar con diferentes equipos, materiales e insumos que facilitarán el proceso de recolección, almacenamiento y análisis de las características fisicoquímicas y microbiológicas de la muestra de agua. Dependiendo del tipo de muestra ya sea puntual o integrada se seleccionarán los recursos necesarios. A continuación un listado general de los utilizados en diferentes muestreos:
-              .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/muestreo.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download
-
-    separador
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 2.3 Asegurar las condiciones de salud y seguridad en el trabajo
+      h2 2.2 Asegurar las condiciones de salud y seguridad en el trabajo
     
     p El proceso de muestreo de aguas, conlleva una serie de riesgos para la seguridad y la salud, desde lesiones físicas hasta intoxicaciones por inhalación de gases e ingestión de sustancias. 
 
@@ -128,10 +209,7 @@
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
         img(src="@/assets/curso/tema2/img11.png")
 
-    .row.justify-content-center.mb-4
-      .col-lg-8.cajon.color-acento-contenido.p-4
-        p.text-center.mb-2 NTC-ISO 5667-1 “GESTIÓN AMBIENTAL. CALIDAD DEL AGUA. MUESTREO.
-        p.text-center.mb-0 DIRECTRICES PARA EL DISEÑO DE PROGRAMAS DE MUESTREO 
+    
 
 </template>
 

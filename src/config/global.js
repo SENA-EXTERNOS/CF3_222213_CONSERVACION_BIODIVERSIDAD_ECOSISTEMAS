@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Características y muestreo del recurso hídrico',
     descripcionCurso:
-      'El recurso hídrico cuenta con una serie de propiedades que lo convierten en un elemento fundamental para la subsistencia de la vida en el planeta, es por ello de suma importancia promover la preservación del mismo a partir del reconocimiento de sus características y los factores o agentes que lo impactan, mediante procesos de parametrización, con el fin de establecer criterios de calidad, aprovechamiento y sostenibilidad que benefician el ecosistema y los procesos que proporcionarán la sostenibilidad del ecosistema.',
+      'El recurso hídrico, cuenta con una serie de propiedades que lo convierten en un elemento fundamental; es de suma importancia promover la preservación del mismo, a partir del reconocimiento de sus características, los factores y los agentes que lo impactan, mediante procesos de parametrización, para establecer criterios de calidad, aprovechamiento y sostenibilidad, los cuales benefician el ecosistema y los procesos que proporcionarán su sostenibilidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -72,15 +72,9 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Recursos para el muestreo',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
             titulo:
               'Asegurar las condiciones de salud y seguridad en el trabajo',
-            hash: 't_2_3',
+            hash: 't_2_2',
           },
         ],
       },
@@ -94,20 +88,38 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Toma de muestras',
+            titulo: 'Tipo de muestra y plan de muestreo',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Análisis y cadena de custodia ',
+            titulo: 'Recolección y transporte de las muestras',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Disposición de los residuos e Informes',
+            titulo: 'Recepción y análisis de muestra',
             hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Elaboración de la cadena de custodia',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Disposición de los residuos generados',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Informes',
+            hash: 't_3_6',
           },
         ],
       },
@@ -154,7 +166,7 @@ export default {
   },
   complementario: [
     {
-      tema: '2.1. Medición de parámetros',
+      tema: 'Medición de parámetros',
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación. (1995). Gestión Ambiental. Calidad del agua: muestreo. Directrices para el diseño de programas de muestreo. EMCALI.',
       tipo: 'Norma',
@@ -162,7 +174,7 @@ export default {
         'https://www.emcali.com.co/documents/148832/183512/NTC+ISO+5667+-1+1995.pdf/c299f60c-2aed-b4d0-35da-81ddbae286b9?t=1532940931582&download=true',
     },
     {
-      tema: '2.1. Medición de parámetros',
+      tema: 'Medición de parámetros',
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación. (1995). Gestión ambiental. Calidad del agua: muestreo. Técnicas generales de muestreo. StuDocu.',
       tipo: 'Norma',
@@ -170,7 +182,7 @@ export default {
         'https://www.studocu.com/co/document/universidad-central-colombia/sistemas-de-tratamiento-de-aguas/ntc-iso-5667-02-1995-tecnicas-generales-de-muestreo/17122760',
     },
     {
-      tema: '2.1. Medición de parámetros',
+      tema: 'Medición de parámetros',
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación. (1995). Gestión ambiental. Calidad del agua: muestreo. Directrices para la conservación y manejo de las muestras. IDEAM.',
       tipo: 'Norma',
@@ -178,7 +190,7 @@ export default {
         'http://documentacion.ideam.gov.co/cgi-bin/koha/opac-detail.pl?biblionumber=7960',
     },
     {
-      tema: '1.1 Ciclo hidrológico y disponibilidad de agua',
+      tema: 'Ciclo hidrológico y disponibilidad de agua',
       referencia: 'Ordoñez, J. (2011). Cartilla Técnica: Ciclo Hidrológico.',
       tipo: 'Cartilla',
       link:
@@ -246,7 +258,7 @@ export default {
     },
     {
       referencia:
-        'Instituto de Hidrología, Metereología y Estudios Ambientales. (2007). Toma de muestras de aguas residuales',
+        'Instituto de Hidrología, Metereología y Estudios Ambientales. (2007). Toma de muestras de aguas residuales.',
       link:
         'http://www.ideam.gov.co/documents/14691/38158/Toma_Muestras_AguasResiduales.pdf/f5baddf0-7d86-4598-bebd-0e123479d428#:~:text=La%20siguiente%20es%20una%20lista,Dorn%2C%20Kemmerer%20o%20balde',
     },

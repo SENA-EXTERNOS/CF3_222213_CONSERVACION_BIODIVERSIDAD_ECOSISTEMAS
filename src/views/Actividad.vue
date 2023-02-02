@@ -10,9 +10,8 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Verdadero / falso
-        p Esta actividad permite identificar el grado de apropiación de los contenidos del componente formativo Características y muestreo del recurso hídrico.
-        p Según la afirmación presentada en cada apartado, señale verdadero o falso según corresponda. Este ejercicio es de repaso, no constituye una actividad evaluativa.
+          h2 Características y muestreo del recurso hídrico
+        p Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo:
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

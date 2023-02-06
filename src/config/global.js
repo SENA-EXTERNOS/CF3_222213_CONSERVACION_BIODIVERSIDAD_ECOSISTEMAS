@@ -181,14 +181,7 @@ export default {
       link:
         'https://www.studocu.com/co/document/universidad-central-colombia/sistemas-de-tratamiento-de-aguas/ntc-iso-5667-02-1995-tecnicas-generales-de-muestreo/17122760',
     },
-    {
-      tema: 'Medición de parámetros',
-      referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación. (1995). Gestión ambiental. Calidad del agua: muestreo. Directrices para la conservación y manejo de las muestras. IDEAM.',
-      tipo: 'Norma',
-      link:
-        'http://documentacion.ideam.gov.co/cgi-bin/koha/opac-detail.pl?biblionumber=7960',
-    },
+
     {
       tema: 'Ciclo hidrológico y disponibilidad de agua',
       referencia: 'Ordoñez, J. (2011). Cartilla Técnica: Ciclo Hidrológico.',

@@ -46,9 +46,9 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Características de calidad
     
-    p La calidad es definida por la RAE como 
+    p La calidad es definida por la RAE como
       span.etiqueta #[b “la propiedad o conjunto de propiedades inherentes a algo que permitan juzgar su valor”.] 
-      | (RAE,2022), cuando se conoce el valor que tiene el agua como recurso fundamental para la subsistencia en el planeta, el concepto de calidad toma fuerza y genera que se establezcan parámetros de medición que arrojen información acerca de las características idóneas con las que debe contar el agua para llegar a las especies vegetales y animales que la consumen.
+      | Cuando se conoce el valor que tiene el agua como recurso fundamental para la subsistencia en el planeta, el concepto de calidad toma fuerza y genera que se establezcan parámetros de medición que arrojen información acerca de las características idóneas con las que debe contar el agua para llegar a las especies vegetales y animales que la consumen.
 
     .row.justify-content-center.align-items-center.BGIMG04.mb-5(data-aos="flip-up")
       .col-lg-3.col-6.mb-lg-0.mb-4

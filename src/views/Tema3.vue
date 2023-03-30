@@ -20,7 +20,7 @@
 
       figure.mb-5(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/AIJAsAriN4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-7.p-4.order-lg-1.order-2(data-aos="fade-right")
@@ -33,7 +33,7 @@
 
       
       separador
-      #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.2 Recolección y transporte de las muestras
       
       p Para realizar una correcta recolección sin afectar las condiciones normales es necesario disponer de los materiales indicados y almacenar adecuadamente la muestra mientras es llevada al correspondiente análisis. Algunas de las recomendaciones son:
@@ -44,7 +44,6 @@
             figure
               img(src='@/assets/curso/tema3/img02.png')
 
-         
           .tarjeta.color-secundario.p-3(x="15%" y="40%" numero="1")
               p.text-white.mb-0 Los envases deben estar libres de impurezas, también disponer de diferentes tipos y cantidades debidamente rotulados antes de iniciar el muestreo.
           

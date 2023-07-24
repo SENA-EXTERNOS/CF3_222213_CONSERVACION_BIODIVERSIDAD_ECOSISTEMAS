@@ -7,12 +7,12 @@
         span 3
       h1 Protocolo y procedimientos
     
-    p.mb-5 Los protocolos de ejecución permiten establecer los procedimientos a seguir en los procesos de análisis de agua, teniendo en cuenta el tipo de muestra, el seguimiento a la recolección, almacenamiento, transporte y análisis. De ésta manera se espera minimizar el porcentaje de error y optimizar resultados, te invitamos a ver el siguiente video donde se abordan los tipos de muestra y el plan de muestreo.
+    p.mb-5 Los protocolos de ejecución permiten establecer los procedimientos a seguir en los procesos de análisis de agua, teniendo en cuenta el tipo de muestra, el seguimiento a la recolección, almacenamiento, transporte y análisis. De ésta manera se espera minimizar el porcentaje de error y optimizar resultados.
 
     separador
-    #t_3_1.titulo-segundo.color-acento-contenido.mb-0(data-aos="fade-right")
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Tipo de muestra y plan de muestreo
-
+    p.mb-0 Lo invitamos a ver el siguiente video, donde se abordan los tipos de muestra y el plan de muestreo:
     .BGIMG06.p-md-5.p-4
 
       figure.mb-5(data-aos="zoom-in")

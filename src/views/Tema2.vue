@@ -165,7 +165,7 @@
 
             li
               <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
-              p.mb-0 Documentos de identificación del personal encargado de la tomas de muestras. 
+              p.mb-0 Documentos de identificación del personal encargado de la toma de muestras. 
 
             li
               <i class="fas fa-circle" style="color:#E26C1E; font-size:x-small;"></i>
@@ -205,7 +205,7 @@
     .row.justify-content-center.align-items-center.BGIMG01.mb-5(data-aos="flip-up")
       .col-lg-7.p-4.order-lg-1.order-2
         p.text-white Es por ello necesario cumplir con regulaciones de seguridad que incluyan equipos de protección personal, uso de chaqueta y cuerda salvavidas de acuerdo con las condiciones climáticas del lugar de muestreo, tener en cuenta los riesgos en terrenos inestables y peligros naturales, considerar los desechos presentes en el lugar de muestreo (tóxicos, inflamables, entre otros), contar con equipo de protección especializado de acuerdo a las condiciones del lugar de muestreo. 
-        p.text-white.mb-0 Ésta información se puede ampliar en la norma NTC-ISO 5667-1 “#[b GESTIÓN AMBIENTAL. CALIDAD DEL AGUA. MUESTREO. DIRECTRICES PARA EL DISEÑO DE PROGRAMAS DE MUESTREO]”
+        p.text-white.mb-0 Ésta información se puede ampliar en la norma NTC-ISO 5667-1 “#[b GESTIÓN AMBIENTAL. CALIDAD DEL AGUA. MUESTREO. DIRECTRICES PARA EL DISEÑO DE PROGRAMAS DE MUESTREO]”, el cual se encuentra en el material complementario.
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
         img(src="@/assets/curso/tema2/img11.png")
 

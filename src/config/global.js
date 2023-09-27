@@ -245,43 +245,43 @@ export default {
   referencias: [
     {
       referencia:
-        'Corantioquia. (2014). Manual Piragüero: Calidad fisicoquímica y microbiológica del agua.',
+        'Corantioquia. (2014). <em>Manual Piragüero: Calidad fisicoquímica y microbiológica del agua</em>.',
       link:
         'https://piragua.corantioquia.gov.co/wp-content/uploads/2016/11/5.Manual_Calidad_Fisicoquimica.pdf',
     },
     {
       referencia:
-        'Instituto de Hidrología, Metereología y Estudios Ambientales. (2007). Toma de muestras de aguas residuales.',
+        'Corporación para el Desarrollo Sostenible del Sur de la Amazonia. (2007). <em>Toma de muestras de aguas residuales</em>',
       link:
-        'http://www.ideam.gov.co/documents/14691/38158/Toma_Muestras_AguasResiduales.pdf/f5baddf0-7d86-4598-bebd-0e123479d428#:~:text=La%20siguiente%20es%20una%20lista,Dorn%2C%20Kemmerer%20o%20balde',
+        'https://www.corpoamazonia.gov.co/files/protocolo_para_toma_de_muestras_de_aguas_residuales.pdf',
     },
     {
       referencia:
-        'Instituto Nacional de Tecnología Agropecuaria. (2011). Protocolo de Muestreo, Transporte y Conservación de Muestras de Agua con Fines Múltiples (consumo humano, abrevado animal y riego).',
+        'Instituto Nacional de Tecnología Agropecuaria. (2011). <em>Protocolo de Muestreo, Transporte y Conservación de Muestras de Agua con Fines Múltiples (consumo humano, abrevado animal y riego).</em>',
       link:
         'https://inta.gob.ar/sites/default/files/script-tmp-protocolo_de_muestreo_de_aguas_inta.pdf',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible. (s.f.). Calidad.',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (s.f.). <em>Calidad</em>.',
       link:
         'https://www.minambiente.gov.co/gestion-integral-del-recurso-hidrico/calidad/',
     },
     {
       referencia:
-        'Programa de Vigilancia por Laboratorio de la Calidad de Agua para Consumo Humano. (2011). Manual de Instrucciones para la Toma, Preservación y Transporte de Muestras de Agua de Consumo Humano para Análisis de Laboratorio.',
+        'Programa de Vigilancia por Laboratorio de la Calidad de Agua para Consumo Humano. (2011). <em>Manual de Instrucciones para la Toma, Preservación y Transporte de Muestras de Agua de Consumo Humano para Análisis de Laboratorio</em>.',
       link:
         'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2011%20Manual%20toma%20de%20muestras%20agua.pdf',
     },
     {
       referencia:
-        'Sistema de Agua Potable y Alcantarillado Municipal. (2021). Ciclo hidrológico y disponibilidad de agua. SAPAM.',
+        'Sistema de Agua Potable y Alcantarillado Municipal. (2021). <em>Ciclo hidrológico y disponibilidad de agua. SAPAM.</em>',
       link:
         'http://sapam.gob.mx/site/ciclo-hidrologico-y-disponibilidad-de-agua/',
     },
     {
       referencia:
-        'Torres, P., Cruz, C. y Patiño, J. (2009). Índices de calidad de agua en fuentes superficiales utilizadas en la producción de agua para consumo humano. Una revisión humana. Revista Ingenierías Universidad de Medellín, 8(5), pp. 79-94.',
+        'Torres, P., Cruz, C. y Patiño, J. (2009). <em>Índices de calidad de agua en fuentes superficiales utilizadas en la producción de agua para consumo humano. Una revisión humana.</em> Revista Ingenierías Universidad de Medellín, 8(5), pp. 79-94.',
       link: 'http://www.scielo.org.co/pdf/rium/v8n15s1/v8n15s1a09.pdf',
     },
   ],

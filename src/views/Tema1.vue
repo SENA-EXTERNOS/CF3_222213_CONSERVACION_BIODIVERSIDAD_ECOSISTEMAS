@@ -40,7 +40,7 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/img03.png' alt='AvatarTop')
           .tarjeta.tarjeta--azul.p-4
-            p.ms-5 Con el fin de comprender su disponibilidad para todas las especies, es necesario conocer que del 100 % presente en el planeta, el 97% es salada y se encuentra en los océanos, mientras que el 3% restante es dulce y se encuentra accesible para el consumo humano, después de sufrir una serie de tratamientos en los que se capta, desinfecta, conduce y contiene se hace consumible y aprovechable para las especies animales y vegetales.
+            p.ms-5 Con el fin de comprender su disponibilidad para todas las especies, es necesario conocer que del 100% presente en el planeta, el 97% es salada y se encuentra en los océanos, mientras que el 3% restante es dulce y se encuentra accesible para el consumo humano, después de sufrir una serie de tratamientos en los que se capta, desinfecta, conduce y contiene se hace consumible y aprovechable para las especies animales y vegetales.
             
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")

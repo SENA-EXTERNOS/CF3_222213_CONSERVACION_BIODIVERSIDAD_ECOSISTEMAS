@@ -49,7 +49,7 @@
           
           .tarjeta.color-secundario.p-3(x="54%" y="50%" numero="3")
 
-              p.text-white.mb-0 Es importante tener en cuenta que para retardar los cambios químicos y biológicos de algunas muestras es necesario contar con reactivos preservantes, para el buen manejo de estos, se deben mantener en contenedores adecuados y deben ser manipulados con elementos de protección personal, de acuerdo al tipo de muestra (Guantes, gafas, overol o bata, botas de caucho). 
+              p.text-white.mb-0 Es importante tener en cuenta que para retardar los cambios químicos y biológicos de algunas muestras es necesario contar con reactivos preservantes, para el buen manejo de estos, se deben mantener en contenedores adecuados y deben ser manipulados con elementos de protección personal, de acuerdo con el tipo de muestra (Guantes, gafas, overol o bata, botas de caucho). 
           
           .tarjeta.color-secundario.p-3(x="60%" y="73%" numero="4")
 

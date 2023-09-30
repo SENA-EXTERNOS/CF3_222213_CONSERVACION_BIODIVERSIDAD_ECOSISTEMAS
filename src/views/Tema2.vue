@@ -85,9 +85,9 @@
               p.mb-0 En ese sentido, en Colombia se cuenta con el Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC), que se encarga de establecer ciertos protocolos para la conservación y manejo de muestras de agua. 
             .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
               img(src="@/assets/curso/tema2/img08.png")
-          .row.justify-content-center.align-items-center(titulo="Oxígeno Disuelto (OD)")
+          .row.justify-content-center.align-items-center(titulo="NTC-ISO 5667")
             .col-lg-7.p-4.order-lg-1.order-2
-              .h4 Oxígeno Disuelto (OD)
+              .h4 NTC-ISO 5667
               p Actualmente se cuenta con un grupo de normas en gestión ambiental previstas para usar en conjunto, la primera de ellas es la NTC-ISO 5667-1 “#[b Gestión ambiental. Calidad del agua. Muestreo. Directrices para el diseño de programas de muestreo]”.
               p La segunda es la NTC-ISO 5667-2 “#[b Gestión ambiental. Calidad del agua. Muestreo. Técnicas generales de muestreo]”. 
               p.mb-0 La tercera es la NTC-ISO 5667-3 “Gestión ambiental. Calidad del agua. Muestreo. Directrices para la conservación y manejo de muestras”, en donde se establecen los principios generales para la toma de muestras y evaluación de condiciones de calidad del agua e identificación de las fuentes de contaminación.
